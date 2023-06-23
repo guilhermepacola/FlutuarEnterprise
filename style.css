@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  width: 626px;
+  margin: 64px auto;
+}
+
+
+/*ESTILOS PARA CONTEUDO PRINCIPAL*/
+main img {
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.principal h1 {
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+
+  font-size: 32px;
+  font-weight: normal;
+
+  color: #3F3D56;
+}
+
+.principal h1 span {
+  font-weight: bold;
+  color: #EE24FF;
+}
+
+.principal .text1 {
+  width: 540px;
+  margin: 16px auto 32px;
+
+  color: #828282;
+  font-weight: normal;
+
+  font-size: 15px;
+  line-height: 22px;
+
+  text-align: center;
+}
+
+.principal .text1 span {
+  color: #3F3D56;
+  font-weight: bold;
+}
+
+.principal .text2 {
+  width: 626px;
+
+  color: #828282;
+  font-weight: normal;
+
+  font-size: 15px;
+
+  text-align: center;
+}
+
+/*ESTILOS PARA O RODAPÉ*/
+
+.line {
+  width: 391px;
+  height: 0;
+
+  margin: 64px auto 16px;
+
+  border: 1px solid #ECEFF2;
+}
+
+footer .menu {
+  list-style: none;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+
+  margin: 0;
+  padding: 0;
+}
+
+footer .menu a {
+  text-decoration: none;
+  color: #3F3D56;
+}
+
+.wave {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
